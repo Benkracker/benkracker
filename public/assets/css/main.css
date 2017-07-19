@@ -188,7 +188,11 @@
 		
 		 Set your background with this */
 
-		background: #348cb2 url("images/coffee-bg.jpg") bottom center;
+		background: #348cb2 url("images/coffee-bg.jpg") center center;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+		background-size: cover;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -262,7 +266,8 @@
 	}
 
 	#bg {
-		background-size: 100%;
+		background-size: 2250px auto;
+		width: 6750px;
 	}
 
 /* Overlay */
@@ -765,8 +770,8 @@
 		}
 
 		#bg {
-			background-size: 100% auto;
-			
+			background-size: 1500px auto;
+			width: 4500px;
 		} }
 
 /* Normal */
@@ -847,8 +852,8 @@
 		}
 
 		#bg {
-			background-size: 100% auto;
-			
+			background-size: 750px auto;
+			width: 2250px;
 		} }
 
 /* Mobile */
@@ -933,8 +938,8 @@
 		}
 
 		#bg {
-			background-size: 100% auto;
-			
+			background-size: 300px auto;
+			width: 900px;
 		}
 
 	/* Header */
@@ -1031,8 +1036,8 @@
 		}
 		
 		#bg {
-			background-size: 100% auto;
-			
+			background-size: 412.5px auto;
+			width: 1237.5px;
 		}
 
 	/* Header */
