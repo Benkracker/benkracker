@@ -193,7 +193,7 @@
   		-moz-background-size: cover;
   		-o-background-size: cover;
 		background-size: cover;
-		background-repeat: repeat-x;
+		background-repeat: no-repeat;
 		height: 100%;
 		left: 0;
 		opacity: 1;
